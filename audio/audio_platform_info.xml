@@ -28,6 +28,7 @@
     <acdb_ids>
         <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="15"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" acdb_id="15"/>
         <device name="SND_DEVICE_LGE_OUT_FR_THD_SPEAKER_1_TEST" acdb_id="1001"/>
         <device name="SND_DEVICE_LGE_OUT_FR_THD_SPEAKER_2_TEST" acdb_id="1003"/>
@@ -149,6 +150,7 @@
         <device name="SND_DEVICE_LGE_OUT_MITS_MELODY_SPEAKER_TEST" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_MITS_CAMCODER_PLAY_SPEAKER_TEST" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_VOIP_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_LOOPBACK_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_MT_LOOPBACK_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
