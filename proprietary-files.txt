@@ -90,12 +90,6 @@ vendor/lib/rfsa/adsp/smecns_v2_module_fv9.so.1
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
-# Audio
-vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib/libwebrtc_audio_preprocessing.so
-vendor/lib64/hw/audio.primary.msmnile.so
-vendor/lib64/libwebrtc_audio_preprocessing.so
-
 # Audio amplifier firmware
 vendor/firmware/Tfa9872.cnt
 
