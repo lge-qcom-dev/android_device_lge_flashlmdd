@@ -16,7 +16,7 @@ TARGET_SCREEN_DENSITY := 560
 ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/flash_lao_com-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_flash_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
