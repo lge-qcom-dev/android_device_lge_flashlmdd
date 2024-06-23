@@ -954,8 +954,8 @@ vendor/etc/wifi/NA_VZW/bdwlan_ch0.bin
 vendor/etc/wifi/NA_VZW/bdwlan_ch1.bin
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
-vendor/etc/wifi/bdwlan.bin
-vendor/etc/wifi/bdwlan_ch0.bin
-vendor/etc/wifi/bdwlan_ch1.bin
+vendor/etc/wifi/bdwlan.bin;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan.bin
+vendor/etc/wifi/bdwlan_ch0.bin;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan_ch0.bin
+vendor/etc/wifi/bdwlan_ch1.bin;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan_ch1.bin
 vendor/etc/wifi/fstman.ini
 vendor/etc/wifi/icudt53l.dat
