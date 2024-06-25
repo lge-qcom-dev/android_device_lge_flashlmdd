@@ -510,7 +510,7 @@ vendor/lib/libarcsoft_makeup.so
 vendor/lib/libarcsoft_object_tracking.so
 vendor/lib/libarcsoft_singlecam_portrait_lighting.so
 vendor/lib/libbwfocuspeaking.so
-vendor/lib/libc++_shared_snpe.so
+vendor/lib/libc++_shared_snpe.so;SYMLINK=vendor/lib/libc++_shared.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxfdalgov7.so
 vendor/lib/libcamxfdalgov8.so
@@ -705,7 +705,7 @@ vendor/lib64/libarcsoft_makeup.so
 vendor/lib64/libarcsoft_object_tracking.so
 vendor/lib64/libarcsoft_singlecam_portrait_lighting.so
 vendor/lib64/libbwfocuspeaking.so
-vendor/lib64/libc++_shared_snpe.so
+vendor/lib64/libc++_shared_snpe.so;SYMLINK=vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdalgov8.so
