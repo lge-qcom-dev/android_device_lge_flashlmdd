@@ -1,6 +1,10 @@
 ## All unpinned blobs are from V500NO40d
 ## flashlmdd_lao_com-user 12 SKQ1.211103.001 22300122594d9 release-keys
 
+# Current blobs with ELF checks disabled:
+# libdepthcomputation_wrapper depends on improperly exported symbols from libcdsprpc
+# com.qti.stats.{aec,afd,asd}, liblgae_main depends on a compiler intrinsic symbol that are not exported
+
 # ACDBDATA
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/Codec_cal.acdb
@@ -397,10 +401,10 @@ vendor/lib/camera/components/com.qti.node.memcpy.so
 vendor/lib/camera/components/com.qti.node.remosaic.so
 vendor/lib/camera/components/com.qti.node.stich.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
-vendor/lib/camera/components/com.qti.stats.aec.so
+vendor/lib/camera/components/com.qti.stats.aec.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.qti.stats.af.so
-vendor/lib/camera/components/com.qti.stats.afd.so
-vendor/lib/camera/components/com.qti.stats.asd.so
+vendor/lib/camera/components/com.qti.stats.afd.so;DISABLE_CHECKELF
+vendor/lib/camera/components/com.qti.stats.asd.so;DISABLE_CHECKELF
 vendor/lib/camera/components/com.qti.stats.awb.so
 vendor/lib/camera/components/com.qti.stats.awbwrapper.so
 vendor/lib/camera/components/com.qti.stats.hafoverride.so
@@ -512,10 +516,10 @@ vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcinemaeffect.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libdepthcomputation_wrapper.so
+vendor/lib/libdepthcomputation_wrapper.so;DISABLE_CHECKELF
 vendor/lib/libfilm_emulation.so
 vendor/lib/libfilm_emulation_symphony.so
-vendor/lib/liblgae_main.so
+vendor/lib/liblgae_main.so;DISABLE_CHECKELF
 vendor/lib/liblgawb_main.so
 vendor/lib/liblgdnnsnpe.so
 vendor/lib/liblghdri.so
@@ -586,10 +590,10 @@ vendor/lib64/camera/components/com.qti.node.memcpy.so
 vendor/lib64/camera/components/com.qti.node.remosaic.so
 vendor/lib64/camera/components/com.qti.node.stich.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
-vendor/lib64/camera/components/com.qti.stats.aec.so
+vendor/lib64/camera/components/com.qti.stats.aec.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/com.qti.stats.af.so
-vendor/lib64/camera/components/com.qti.stats.afd.so
-vendor/lib64/camera/components/com.qti.stats.asd.so
+vendor/lib64/camera/components/com.qti.stats.afd.so;DISABLE_CHECKELF
+vendor/lib64/camera/components/com.qti.stats.asd.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/com.qti.stats.awb.so
 vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
 vendor/lib64/camera/components/com.qti.stats.haf.so
@@ -706,10 +710,10 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libcinemaeffect.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libdepthcomputation_wrapper.so
+vendor/lib64/libdepthcomputation_wrapper.so;DISABLE_CHECKELF
 vendor/lib64/libfilm_emulation.so
 vendor/lib64/libfilm_emulation_symphony.so
-vendor/lib64/liblgae_main.so
+vendor/lib64/liblgae_main.so;DISABLE_CHECKELF
 vendor/lib64/liblgawb_main.so
 vendor/lib64/liblgdnnsnpe.so
 vendor/lib64/liblghdri.so
