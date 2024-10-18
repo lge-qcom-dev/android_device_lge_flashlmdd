@@ -27,7 +27,6 @@ TARGET_VENDOR_DEVICE_NAME := flashlmdd
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="flashlmdd_lao_com" \
-    PRIVATE_BUILD_DESC="flashlmdd_lao_com-user 12 SKQ1.211103.001 22300122594d9 release-keys"
-
-BUILD_FINGERPRINT := "lge/flashlmdd_lao_com/flashlmdd:12/SKQ1.211103.001/22300122594d9:user/release-keys"
+    DeviceProduct=flashlmdd_lao_com \
+    BuildDesc="flashlmdd_lao_com-user 12 SKQ1.211103.001 22300122594d9 release-keys" \
+    BuildFingerprint="lge/flashlmdd_lao_com/flashlmdd:12/SKQ1.211103.001/22300122594d9:user/release-keys"
