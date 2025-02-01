@@ -7,6 +7,9 @@ persist.vendor.lge.audio.voice.clarity=off
 ro.vendor.lge.aux.camera=2
 ro.vendor.lge.physical.camera=5
 
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+
 # LGE Misc
 ro.vendor.lge.build.target_country=COM
 ro.vendor.lge.build.target_operator=LAO
