@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_NAME := flashlmdd
-
 # Inherit from common tree
 $(call inherit-product, device/lge/sm8150-common/sm8150.mk)
 
