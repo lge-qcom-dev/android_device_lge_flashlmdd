@@ -23,12 +23,8 @@ namespace_imports = [
 
 blob_fixups: blob_fixups_user_type = {
     (
-        'vendor/lib/libSNPE.so',
-        'vendor/lib/liblgdnnsnpe.so',
         'vendor/lib64/liblgdnnsnpe.so',
-        'vendor/lib/liblgsnpeawb.so',
         'vendor/lib64/liblgsnpeawb.so',
-        'vendor/lib/liblgsnpeawb_beta.so',
         'vendor/lib64/liblgsnpeawb_beta.so')
     : blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
