@@ -92,6 +92,10 @@ vendor/lib/rfsa/adsp/sm_fluence_sb_module.so.1
 vendor/lib/rfsa/adsp/smecns_v2_module.so.1
 vendor/lib/rfsa/adsp/smecns_v2_module_fv9.so.1
 
+# Audio
+vendor/lib/hw/audio.primary.msmnile.so:vendor/lib/hw/audio.primary.flashlmdd.so;FIX_SONAME
+vendor/lib64/hw/audio.primary.msmnile.so:vendor/lib64/hw/audio.primary.flashlmdd.so;FIX_SONAME
+
 # Audio amplifier firmware
 vendor/firmware/Tfa9872.cnt
 

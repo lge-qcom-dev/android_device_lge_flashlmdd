@@ -17,6 +17,7 @@ from extract_utils.fixups_lib import (
 )
 
 namespace_imports = [
+    "hardware/qcom-caf/sm8150",
     "vendor/lge/sm8150-common",
     "vendor/qcom/opensource/display",
 ]
