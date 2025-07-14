@@ -25,8 +25,5 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2022-08-01
 
-# SEPolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # inherit from the proprietary version
 include vendor/lge/flashlmdd/BoardConfigVendor.mk
