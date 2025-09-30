@@ -12,9 +12,6 @@ DEVICE_PATH := device/lge/flashlmdd
 # Display
 TARGET_SCREEN_DENSITY := 560
 
-# HIDL
-ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineageos_flash_defconfig
 
